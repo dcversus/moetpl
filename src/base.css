@@ -1,0 +1,39 @@
+@import '../~normalize.css';
+
+:root {
+  --base-color: #3C3C3B;
+  --primary-color: #666699;
+
+  font-size: 12px;
+  font-family: 'DIN 2014', 'slab-serif';
+  font-weight: normal;
+  color: var(--base-color);
+}
+
+::selection {
+  color: white;
+  background: var(--base-color);
+}
+
+/* fonts */
+@font-face {
+    font-family: 'DIN 2014';
+    src: url('./assets/DIN2014-DemiBold.eot');
+    src: local('DIN 2014 DemiBold'), local('DIN2014-DemiBold'),
+        url('./assets/DIN2014-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/DIN2014-DemiBold.woff') format('woff'),
+        url('./assets/DIN2014-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014';
+    src: url('./assets/DIN2014-Regular.eot');
+    src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
+        url('./assets/DIN2014-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/DIN2014-Regular.woff') format('woff'),
+        url('./assets/DIN2014-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
