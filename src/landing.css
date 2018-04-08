@@ -279,3 +279,43 @@
 .fixing p + p {
   margin-top: 2rem;
 }
+
+/* tokens */
+.tokens {
+  background: #D0D3E614;
+}
+
+.tokens .wrapper > p {
+  width: 94rem; /* again? */
+  text-align: center;
+  margin: 0 auto 5rem;
+}
+
+.tokens .item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tokens .item {
+  width: 34rem;
+  padding: 27rem 2rem 3.5rem;
+  background: #fff top 4.5rem center/19rem 19rem no-repeat;
+  box-sizing: border-box;
+  border: 1px solid #D0D3E6;
+  border-radius: .5rem;
+  text-align: center;
+
+}
+
+.tokens .item.moe1 {
+  background-image: url('./assets/icon_moe_1.svg');
+}
+
+.tokens .item.moe2 {
+  background-image: url('./assets/icon_moe_2.svg');
+}
+
+.tokens .item.moe3 {
+  background-image: url('./assets/icon_moe_3.svg');
+}
