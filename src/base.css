@@ -1,18 +1,27 @@
 @import '../~normalize.css';
+@import './landing.css';
 
 :root {
   --base-color: #3C3C3B;
   --primary-color: #666699;
+  --dark-primary-color: #4D4D73;
+  --button-background-color: linear-gradient(#D0D3E6, #9999FF);
 
-  font-size: 12px;
-  font-family: 'DIN 2014', 'slab-serif';
-  font-weight: normal;
+  font-size: 10px;
+  font-family: 'DIN 2014', 'sans-serif';
   color: var(--base-color);
 }
 
 ::selection {
   color: white;
   background: var(--base-color);
+}
+
+.wrapper {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 /* fonts */
