@@ -212,7 +212,7 @@
 
 .roles .item {
   background-repeat: no-repeat;
-  background-size: 60rem 37rem;
+  background-size: 50rem 37rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,13 +220,13 @@
 }
 
 .roles .item.right {
-  background-position: center left -5rem;
+  background-position: center left;
   padding-left: 55%;
 }
 
 .roles .item.left {
   background-position: center right -5rem;
-  padding-right: 55%;
+  padding-right: 50%;
 }
 
 .manufacture {
