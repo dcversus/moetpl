@@ -16,6 +16,7 @@
   font-size: 10px;
   font-family: 'DIN 2014', 'sans-serif';
   color: var(--base-color);
+  scroll-behavior: smooth;
 }
 
 ::selection {
