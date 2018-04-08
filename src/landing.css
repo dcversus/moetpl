@@ -229,14 +229,53 @@
   padding-right: 50%;
 }
 
-.manufacture {
+.roles .item.manufacture {
   background-image: url('./assets/Manufacturer.svg');
 }
 
-.miner {
+.roles .item.miner {
   background-image: url('./assets/Miner.svg');
 }
 
-.user {
+.roles .item.user {
   background-image: url('./assets/User.svg');
+}
+
+/* fixing */
+.fixing {
+  background-color: var(--primary-color);
+  padding: 0;
+}
+
+.fixing .wrapper {
+  height: 52rem;
+  padding-right: 50rem;
+  color: #fff;
+  justify-content: center;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.fixing .wrapper:after {
+  content: '';
+  background: url('./assets/Pic_fixing_iot.svg') center center/contain no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  margin-left: 30rem;
+}
+
+.fixing h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.fixing p + p {
+  margin-top: 2rem;
 }
