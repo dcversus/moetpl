@@ -319,3 +319,23 @@
 .tokens .item.moe3 {
   background-image: url('./assets/icon_moe_3.svg');
 }
+
+/* allocation */
+.allocation h2 {
+  margin-bottom: 5rem;
+}
+
+.allocation.wrapper {
+  width: 100rem;
+}
+
+
+/* roadmap */
+.roadmap h2 {
+  margin-bottom: 5rem;
+}
+
+.roadmap.wrapper {
+  width: 100rem;
+}
+
