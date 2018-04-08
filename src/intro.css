@@ -22,10 +22,36 @@
 
 .intro h1 {
   font-size: 5.5rem;
-  margin: 5rem 4rem;
+  margin: 5rem 0 4rem;
 }
 
 .intro p {
   margin: 0 0 2rem;
   font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    padding-bottom: 40rem;
+  }
+
+  .intro:after {
+    height: 50rem;
+  }
+
+  .intro h1 {
+    margin: 3rem 0 2rem;
+    font-size: 4rem;
+  }
+
+  .intro p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .intro h1 {
+    margin: 4rem 0;
+    font-size: 3rem;
+  }
 }

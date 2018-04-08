@@ -37,3 +37,21 @@
   background: var(--button-background-color);
   outline: none;
 }
+
+@media (max-width: 1200px) {
+  .form input {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .form input {
+    width: 30rem;
+    font-size: 1.2rem;
+  }
+
+  .form button {
+    width: 11rem;
+    font-size: 1.2rem;
+  }
+}

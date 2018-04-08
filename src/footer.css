@@ -41,6 +41,7 @@
   height: 2.4rem;
   display: inline-block;
   margin-left: 1rem;
+  background-size: contain;
 }
 
 .footer .icon.facebook {
@@ -57,4 +58,45 @@
 
 .footer .icon.telegram {
   background-image: url('./assets/icon_telegram.svg');
+}
+
+@media (max-width: 1200px) {
+  .footer .icon {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer .wrapper {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+
+  .footer span {
+    font-size: 1rem;
+    width: 10rem;
+  }
+
+  .footer a {
+    font-size: 1.4rem;
+  }
+
+  .footer .follow {
+    display: none;
+  }
+
+  .footer .follow-wrapper {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+
+  .footer .icon {
+
+  }
+
+  .footer .about-wrapper {
+    width: 15rem;
+  }
 }

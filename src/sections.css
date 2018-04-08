@@ -87,15 +87,15 @@
 }
 
 /* roles */
-.roles > p {
+.roles .wrapper > p {
   width: 70rem; /* again? */
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
 }
 
 .roles .item-wrapper {
   /*display: flex;*/
-  width: 110rem;
+  /*width: 110rem;*/
 }
 
 .roles .item {
@@ -133,6 +133,8 @@
 .fixing {
   background-color: var(--primary-color);
   padding: 0;
+
+  overflow: hidden; /* prevent .wrapper:after scroll bug */
 }
 
 .fixing .wrapper {
@@ -243,4 +245,135 @@
 .join p {
   margin: 0 0 5rem;
   font-size: 2rem;
+}
+
+@media (max-width: 1900px) {
+  .fixing .wrapper {
+    padding-right: 40rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+
+  .section h2 {
+    font-size: 3rem;
+  }
+
+  .section h3 {
+    font-size: 1.9rem;
+  }
+
+  .section p {
+    font-size: 1.5rem;
+  }
+
+
+  .dns > p {
+    width: 74rem;
+  }
+
+  .dns .item {
+    width: 28rem;
+  }
+
+  .fixing .wrapper {
+    padding-right: 30rem;
+  }
+
+  .tokens .wrapper > p {
+    width: 64rem;
+  }
+
+  .tokens .item {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .section h2 {
+    font-size: 2.2rem;
+  }
+
+  .section h3 {
+    font-size: 1.7rem;
+  }
+
+  .section p {
+    font-size: 1.5rem;
+  }
+
+  .dns .item-wrapper {
+    flex-direction: column;
+  }
+
+  .dns .item {
+    width: 100%;
+  }
+
+  .dns > p {
+    width: initial;
+  }
+
+  .roles .item.right,
+  .roles .item.left {
+    padding: 16rem 0 0;
+    background-position: center top;
+    background-size: 30rem 16rem;
+    height: initial;
+    margin-bottom: 3rem;
+  }
+
+  .roles h3 {
+    text-align: center;
+  }
+
+  .roles .wrapper > p {
+    width: initial;
+  }
+
+  .fixing .wrapper {
+    padding-right: 0;
+    height: initial;
+    padding-top: 20rem;
+  }
+
+  .fixing .wrapper:after {
+    margin: 0;
+    background-position: top center;
+  }
+
+  .fixing h2 {
+    text-align: center;
+  }
+
+  .tokens .wrapper > p {
+    width: initial;
+  }
+
+  .tokens .item-wrapper {
+    flex-direction: column;
+  }
+
+  .tokens .item {
+    margin-bottom: 2rem;
+  }
+
+  .join h2 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  .join p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }

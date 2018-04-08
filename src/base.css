@@ -9,6 +9,7 @@
   --base-color: #3C3C3B;
   --primary-color: #666699;
   --dark-primary-color: #4D4D73;
+  --darker-primary-color: #45456B;
   --light-primary-color: #D0D3E6;
   --button-background-color: linear-gradient(var(--light-primary-color), #9999FF);
 
@@ -28,6 +29,36 @@
   padding-right: 1rem;
   padding-left: 1rem;
   box-sizing: border-box;
+}
+
+@media (max-width: 1900px) {
+  .wrapper {
+    width: 105rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 88rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 900px) {
+  [data-mobile] {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  [data-desktop] {
+    display: none;
+  }
 }
 
 /* fonts */
