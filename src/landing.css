@@ -1,0 +1,188 @@
+/* header */
+.header {
+  background-color: var(--dark-primary-color);
+  padding: 4rem 0;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0 .5rem;
+}
+
+.header .logo {
+  background: url('./assets/Logo_moeco.svg') center/contain no-repeat;
+  width: 15rem;
+  height: 3rem;
+  margin: 0;
+}
+
+.header .button {
+  border: 1px solid;
+  border-radius: .5rem;
+  height: 4rem;
+  width: 22rem;
+  line-height: 4rem;
+  text-align: center;
+  margin: 0 0 0 3rem;
+}
+
+/* intro section */
+.intro {
+  background-color: var(--dark-primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50rem;
+  position: relative;
+}
+
+.intro:after {
+  content: '';
+  background: url('./assets/Token_page.svg') bottom center/cover no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60rem;
+  width: 100%;
+  pointer-events: none;
+  margin-bottom: -3rem;
+}
+
+.intro h1 {
+  font-size: 5.5rem;
+  margin: 5rem 4rem;
+}
+
+.intro p {
+  margin: 0 0 2rem;
+  font-size: 2rem;
+}
+
+/* form */
+.form {
+  position: relative;
+  z-index: 1;
+}
+
+.form input {
+  height: 5rem;
+  width: 70rem;
+  border: 0;
+  border-radius: .5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1.5rem 2rem;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.form input::placeholder {
+  color: #C4C4C4;
+}
+
+.form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+  border-radius: .5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--button-background-color);
+  outline: none;
+}
+
+/* section */
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+}
+
+.section h2 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  margin: 0 0 2rem;
+}
+
+.section h3 {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  margin: 0 0 2rem;
+}
+
+.section p {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.dns {
+  padding-top: 10rem;
+}
+
+.dns > p {
+  width: 94rem; /* i hate myself because use this magic number */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dns .item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dns .item {
+  width: 36rem;
+  padding-top: 22rem;
+  background: top center/22rem 22rem no-repeat;
+}
+
+.dns .item h3 {
+  text-align: center;
+}
+
+.dns .item.network {
+  background-image: url('./assets/Pic_network.svg');
+}
+
+.dns .item.access {
+  background-image: url('./assets/Pic_access.svg');
+}
+
+.dns .item.motivation {
+  background-image: url('./assets/Pic_motivation.svg');
+}
+
+.dns .button {
+  width: 22rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background: var(--button-background-color);
+  text-decoration: none;
+  margin-top: 5rem;
+  border-radius: .5rem;
+}
