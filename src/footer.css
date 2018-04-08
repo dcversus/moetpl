@@ -1,0 +1,60 @@
+.footer .wrapper {
+  padding: 3rem 2rem;
+  border-top: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a,
+.footer span {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--base-color);
+  margin: 0;
+}
+
+.footer .whitepaper {
+  text-align: center;
+}
+
+.footer .about-wrapper {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .about {
+  text-align: center;
+}
+
+.footer .follow-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer .follow {
+  margin-right: 2rem;
+}
+
+.footer .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.footer .icon.facebook {
+  background-image: url('./assets/icon_facebook.svg');
+}
+
+.footer .icon.twitter {
+  background-image: url('./assets/icon_twitter.svg');
+}
+
+.footer .icon.reddit {
+  background-image: url('./assets/icon_reddit.svg');
+}
+
+.footer .icon.telegram {
+  background-image: url('./assets/icon_telegram.svg');
+}

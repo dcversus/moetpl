@@ -1,0 +1,31 @@
+.intro {
+  background-color: var(--dark-primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50rem;
+  position: relative;
+}
+
+.intro:after {
+  content: '';
+  background: url('./assets/Token_page.svg') bottom center/cover no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60rem;
+  width: 100%;
+  pointer-events: none;
+  margin-bottom: -3rem;
+}
+
+.intro h1 {
+  font-size: 5.5rem;
+  margin: 5rem 4rem;
+}
+
+.intro p {
+  margin: 0 0 2rem;
+  font-size: 2rem;
+}

@@ -1,5 +1,9 @@
 @import '../~normalize.css';
-@import './landing.css';
+@import './header.css';
+@import './intro.css';
+@import './form.css';
+@import './sections.css';
+@import './footer.css';
 
 :root {
   --base-color: #3C3C3B;

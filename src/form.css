@@ -1,0 +1,39 @@
+.form {
+  position: relative;
+  z-index: 1;
+}
+
+.form input {
+  height: 5rem;
+  width: 70rem;
+  border: 1px solid var(--light-primary-color);
+  border-radius: .5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1.5rem 2rem;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.form input::placeholder {
+  color: #C4C4C4;
+}
+
+.form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+  border-radius: .5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--button-background-color);
+  outline: none;
+}
