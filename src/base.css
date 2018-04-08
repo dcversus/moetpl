@@ -5,7 +5,8 @@
   --base-color: #3C3C3B;
   --primary-color: #666699;
   --dark-primary-color: #4D4D73;
-  --button-background-color: linear-gradient(#D0D3E6, #9999FF);
+  --light-primary-color: #D0D3E6;
+  --button-background-color: linear-gradient(var(--light-primary-color), #9999FF);
 
   font-size: 10px;
   font-family: 'DIN 2014', 'sans-serif';
