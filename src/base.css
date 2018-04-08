@@ -11,7 +11,7 @@
   --dark-primary-color: #4D4D73;
   --darker-primary-color: #45456B;
   --light-primary-color: #D0D3E6;
-  --button-background-color: linear-gradient(var(--light-primary-color), #9999FF);
+  --button-background-color: #9999FF linear-gradient(var(--light-primary-color), transparent);
 
   font-size: 10px;
   font-family: 'DIN 2014', 'sans-serif';
@@ -21,6 +21,12 @@
 ::selection {
   color: white;
   background: var(--base-color);
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 1px 2px #9999FF;
+  border-radius: .5rem;
 }
 
 .wrapper {

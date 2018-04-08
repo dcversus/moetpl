@@ -36,6 +36,11 @@
   color: #fff;
   background: var(--button-background-color);
   outline: none;
+  transition: .3s;
+}
+
+.form button:hover {
+  background: var(--light-primary-color);
 }
 
 @media (max-width: 1200px) {

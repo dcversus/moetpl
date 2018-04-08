@@ -75,6 +75,11 @@
   text-decoration: none;
   margin-top: 5rem;
   border-radius: .5rem;
+  transition: .3s;
+}
+
+.dns .button:hover {
+  background: var(--light-primary-color);
 }
 
 /* platform */
